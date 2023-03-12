@@ -1,0 +1,92 @@
+body {
+  background-color: #f8f9fa !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  color: white;
+}
+body .instructions div {
+  width: 10px;
+  height: 10px;
+  border-radius: 12px;
+  text-align: center;
+}
+body .instructions {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+body .wrapper {
+  text-align: center;
+  width: 60%;
+  height: 200px;
+  margin: auto;
+}
+body .wrapper * {
+  margin: 0.5em 0;
+}
+body .wrapper .added-items {
+  width: 40%;
+  margin: auto;
+}
+body .wrapper .input {
+  display: flex;
+  flex-direction: column;
+}
+body .wrapper .input input {
+  width: 350px;
+  max-width: 200px;
+  height: 35px;
+}
+body .wrapper button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 32px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 700;
+}
+body .wrapper .see {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 32px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+body .wrapper .modal {
+  display: none;
+  height: 400px;
+  width: 40%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body .wrapper .modal p {
+  margin: 0 0;
+}
+
+@keyframes example {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */

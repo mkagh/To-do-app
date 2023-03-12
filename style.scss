@@ -1,0 +1,113 @@
+body {
+    background-color: #f8f9fa !important;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+    color: white;
+
+    .instructions div {
+        width: 10px;
+        height: 10px;
+        border-radius: 12px;
+        text-align: center;
+
+    }
+
+    .instructions {
+
+        position: absolute;
+        top: 20px;
+        left: 20px;
+
+    }
+
+
+    .wrapper {
+        text-align: center;
+        width: 60%;
+        height: 200px;
+        margin: auto;
+
+        * {
+            margin: 0.5em 0;
+        }
+
+        .added-items {
+            width: 40%;
+            margin: auto;
+        }
+
+        .input {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 350px;
+                max-width: 200px;
+                height: 35px;
+            }
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 32px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 700;
+        }
+
+        .see {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 32px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .modal {
+
+            display: none;
+            height: 400px;
+            width: 40%;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            p {
+                margin: 0 0;
+
+            }
+        }
+    }
+}
+
+@keyframes example {
+    0% {
+        left: -50%;
+
+    }
+
+
+    100% {
+        left: 50%;
+
+    }
+}
